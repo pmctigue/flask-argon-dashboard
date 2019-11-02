@@ -8,7 +8,7 @@ Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** 
 
 <br />
 
-![Flask Dashboard Argon](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-intro.gif)
+![Flask Dashboard Argon - Open-Source Flask Dashboard.]((https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-argon-intro.gif)
 
 <br />
 
