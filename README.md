@@ -16,8 +16,8 @@ Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** 
 
 ```bash
 $ # clone the sources
-$ git clone https://github.com/app-generator/flask-material-dashboard.git
-$ cd flask-material-dashboard
+$ git clone https://github.com/app-generator/flask-argon-dashboard.git
+$ cd flask-argon-dashboard
 $
 $ # install modules using a virtualenv
 $ virtualenv --no-site-packages env
