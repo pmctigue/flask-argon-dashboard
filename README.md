@@ -26,6 +26,7 @@ $
 $ python app.py
 $ # app is running on port 5000
 ```
+
 <br />
 
 ## Want more? Go PRO!
