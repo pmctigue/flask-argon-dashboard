@@ -1,10 +1,12 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Argon Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
-- SQLite database, SQLAlchemy ORM
-- Autehtication Flow (login, register)
-- Static Build `python ./static.py` via Frozen-Flask
-- **MIT License** 
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-argon)** coded in **Flask Web Framework** on top of **Argon Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
+
+<br />
+
+- SQLite database
+- SQLAlchemy ORM
+- Session-Based authentication flow (login, register)
 
 <br />
 
@@ -55,14 +57,21 @@ $ # app is running on port 5000
 
 <br />
 
+## Support
+---
+
+- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and [Github](https://github.com/app-generator/flask-argon-dashboard/issues/)
+- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
+
+<br />
+
 ## Resources
 
- - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - app info
- - Product [documentation](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/)
- - Live [DEMO](https://flask-argon-dashboard.appseed.us/)
- - Related [Blog Article](https://blog.appseed.us/flask-dashboard-argon-zero-to-full-stack/)
- - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) - design information (Creative-Tim)
- - [Flask](http://flask.pocoo.org/) - official website
+- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - Product page
+- [Flask Dashboard Argon](https://flask-argon-dashboard.appseed.us/) - Live DEMO
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
+- [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
+- [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
 
 <br />
 
