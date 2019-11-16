@@ -30,7 +30,7 @@ $ # virtualenv --no-site-packages env
 $ # .\env\Scripts\activate.bat
 $ 
 $ # 2. Install requirements
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 $
 $ # 3. Set the FLASK_APP environment variable
 $ (Unix/Mac) export FLASK_APP=run.py
