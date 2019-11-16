@@ -37,6 +37,12 @@ $ (Unix/Mac) export FLASK_APP=run.py
 $ (Windows) set FLASK_APP=run.py
 $ (Powershell) $env:FLASK_APP = ".\run.py"
 $
+$ # Create SQLite database using the Flask console
+$ flask shell
+>> from app import db
+>> db.create_all()
+>> quit()
+$
 $ # 4. Run the application
 $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
 $ # --port=5000    - specify the app port (default 5000)  
