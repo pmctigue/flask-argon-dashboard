@@ -30,10 +30,6 @@ $ # virtualenv --no-site-packages env
 $ # .\env\Scripts\activate.bat
 $ 
 $ # 2. Install requirements
-$ # SQLIte version (no PostgreSQL)
-$ pip3 install -r requirements-sqlite.txt
-$ 
-$ # OR with PostgreSQL connector
 $ pip install -r requirements.txt
 $
 $ # 3. Set the FLASK_APP environment variable
