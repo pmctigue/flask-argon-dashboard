@@ -17,7 +17,7 @@
 ## Build from sources
 
 ```bash
-$ # clone the sources
+$ # Clone the sources
 $ git clone https://github.com/app-generator/flask-argon-dashboard.git
 $ cd flask-argon-dashboard
 $
@@ -29,26 +29,20 @@ $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv --no-site-packages env
 $ # .\env\Scripts\activate.bat
 $ 
-$ # 2. Install requirements
+$ # Install requirements
 $ pip3 install -r requirements.txt
 $
-$ # 3. Set the FLASK_APP environment variable
+$ # Set the FLASK_APP environment variable
 $ (Unix/Mac) export FLASK_APP=run.py
 $ (Windows) set FLASK_APP=run.py
 $ (Powershell) $env:FLASK_APP = ".\run.py"
 $
-$ # Create SQLite database using the Flask console
-$ flask shell
->> from app import db
->> db.create_all()
->> quit()
-$
-$ # 4. Run the application
+$ # Run the application
 $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
 $ # --port=5000    - specify the app port (default 5000)  
 $ flask run --host=0.0.0.0 --port=5000
 $
-$ # 5. Access the app in browser: http://127.0.0.1:5000/
+$ # Access the app in browser: http://127.0.0.1:5000/
 ```
 
 <br />
