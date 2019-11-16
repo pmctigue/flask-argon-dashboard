@@ -133,33 +133,3 @@ def index(path):
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
-
-# Logger samples usage 
-@app.route('/print')
-def printMsg():
-    app.logger.warning('testing warning log')
-    app.logger.error('testing error log')
-    app.logger.info('testing info log')
-    return "Check your console"
-
-# Used by static export -> Render the icons page
-#@app.route('/icons.html')
-#def icons():
-#
-#    return render_template('layouts/default.html',
-#                           content=render_template( 'pages/icons.html') )
-
-# Used by static export -> Render the profile page
-#@app.route('/profile.html')
-#def profile():
-#
-#    return render_template('layouts/default.html',
-#                            content=render_template( 'pages/profile.html') )
-
-
-# Used by static export -> Render the tables page
-#@app.route('/tables.html')
-#def tables():
-#
-#    return render_template('layouts/default.html',
-#                            content=render_template( 'pages/tables.html') )
