@@ -1,12 +1,13 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-argon)** coded in **Flask Web Framework** on top of **Argon Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-argon)** coded in **Flask Framework** on top of **Argon Dashboard** design. **Features**:
 
 <br />
 
 - SQLite database
 - SQLAlchemy ORM
 - Session-Based authentication flow (login, register)
+- UI Kit: [Argon Dashboard](https://github.com/app-generator/fork-argon-dashboard-html) by **Creative-Tim**
 
 <br />
 
