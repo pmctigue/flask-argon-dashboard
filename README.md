@@ -28,7 +28,7 @@ $ source env/bin/activate
 $
 $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv --no-site-packages env
-$ # .\env\Scripts\activate.bat
+$ # .\env\Scripts\activate
 $ 
 $ # Install requirements
 $ pip3 install -r requirements.txt
