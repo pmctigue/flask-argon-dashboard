@@ -1,6 +1,6 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-argon)** coded in **Flask Framework** on top of **Argon Dashboard** design - Provided by **AppSeed - [Web App Generator](https://appseed.us/app-generator)**
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/open-source)** coded in **Flask Framework** on top of **Argon Dashboard** design - Provided by **AppSeed - [Web App Generator](https://appseed.us/app-generator)**
 
 <br />
 
