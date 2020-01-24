@@ -1,8 +1,10 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-argon)** coded in **Flask Framework** on top of **Argon Dashboard** design. **Features**:
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-argon)** coded in **Flask Framework** on top of **Argon Dashboard** design - Provided by **AppSeed - [Web App Generator](https://appseed.us/app-generator)**
 
 <br />
+
+**Features**:
 
 - SQLite database
 - SQLAlchemy ORM
@@ -11,7 +13,20 @@
 
 <br />
 
-![Flask Dashboard Argon - Open-Source Flask Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-argon-intro.gif)
+## Want more? Go PRO!
+
+PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
+
+<br />
+
+| [Flask Dashboard Material PRO](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [Flask Dashboard Argon PRO](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) | [Flask Dashboard Black PRO](https://appseed.us/admin-dashboards/flask-dashboard-black-pro) |
+| --- | --- | --- |
+| [![Flask Dashboard Material PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-material-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-material-pro)  | [![Flask Dashboard Argon PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-argon-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) | [![Flask Dashboard Black PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-black-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-black-pro)
+
+<br />
+<br />
+
+![Flask Dashboard Argon - Open-Source Flask Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-argon-screen.png)
 
 <br />
 
@@ -87,4 +102,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) provided by **AppSeed**
+[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - Provided by **AppSeed - [Web App Generator](https://appseed.us/app-generator)**
