@@ -1,10 +1,8 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/open-source)** coded in **Flask Framework** on top of **Argon Dashboard** design - Provided by **AppSeed - [Web App Generator](https://appseed.us/app-generator)**
+**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-<br />
-
-**Features**:
+### Dashboard Features:
 
 - SQLite database
 - SQLAlchemy ORM
@@ -92,4 +90,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - Provided by **AppSeed - [Web App Generator](https://appseed.us/app-generator)**
+[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
