@@ -13,6 +13,10 @@
 
 <br />
 
+> Note: **For enhanced version** (blueprints, deployment scripts) of this dashboard please visit: [Flask Panel Dashboard Argon](https://github.com/app-generator/flask-boilerplate-dashboard-argon). Thank you!
+
+<br />
+
 ## Dashboard Links
 
 - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - Product page
