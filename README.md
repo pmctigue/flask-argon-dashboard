@@ -20,7 +20,7 @@
 ## Dashboard Links
 
 - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - Product page
-- [Flask Dashboard Argon](https://github.com/app-generator/flask-argon-dashboard) - Source code (published on Github)
+- [Flask Dashboard Argon](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon-v1/) - Documentation
 - [Flask Dashboard Argon](https://flask-dashboard-argon.appseed.us/login) - LIVE demo
 
 <br />
