@@ -1,50 +1,34 @@
 # -*- encoding: utf-8 -*-
 """
-Argon Dashboard - coded in Flask
-
-Author  : AppSeed App Generator
-Design  : Creative-Tim.com
-License : MIT 
-Support : https://appseed.us/support 
+License: MIT
+Copyright (c) 2019 - present AppSeed.us
 """
 
+# Python modules
+import os, logging 
+
+# Flask modules
 from flask               import render_template, request, url_for, redirect, send_from_directory
 from flask_login         import login_user, logout_user, current_user, login_required
 from werkzeug.exceptions import HTTPException, NotFound, abort
 
-import os, logging 
-
+# App modules
 from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
-
-@app.route('/sitemap.xml')
-def sitemap():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
-
-@app.route('/googlee35aa2f2fd7b0c5b.html')
-def google():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'googlee35aa2f2fd7b0c5b.html')
-
-@app.route('/print')
-def printMsg():
-    app.logger.warning('testing warning log')
-    app.logger.error('testing error log')
-    app.logger.info('testing info log')
-    return "Check your console"
 
 # provide login manager with load_user callback
 @lm.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-# authenticate user
+# Logout user
 @app.route('/logout.html')
 def logout():
     logout_user()
     return redirect(url_for('index'))
 
-# register user
+# Register a new user
 @app.route('/register.html', methods=['GET', 'POST'])
 def register():
     
@@ -91,7 +75,7 @@ def register():
     return render_template('layouts/auth-default.html',
                             content=render_template( 'pages/register.html', form=form, msg=msg ) )
 
-# authenticate user
+# Authenticate user
 @app.route('/login.html', methods=['GET', 'POST'])
 def login():
     
@@ -125,32 +109,13 @@ def login():
     return render_template('layouts/auth-default.html',
                             content=render_template( 'pages/login.html', form=form, msg=msg ) )
 
-# Render the icons page
-@app.route('/icons.html')
-def icons():
-
-    return render_template('layouts/default.html',
-                            content=render_template( 'pages/icons.html') )
-
-# Render the profile page
-@app.route('/profile.html')
-def profile():
-
-    return render_template('layouts/default.html',
-                            content=render_template( 'pages/profile.html') )
-
-
-# Render the tables page
-@app.route('/tables.html')
-def tables():
-
-    return render_template('layouts/default.html',
-                            content=render_template( 'pages/tables.html') )
-
 # App main route + generic routing
 @app.route('/', defaults={'path': 'index.html'})
 @app.route('/<path>')
 def index(path):
+
+    if not current_user.is_authenticated:
+        return redirect(url_for('login'))
 
     content = None
 
@@ -163,3 +128,8 @@ def index(path):
         
         return render_template('layouts/auth-default.html',
                                 content=render_template( 'pages/404.html' ) )
+
+# Return sitemap 
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
